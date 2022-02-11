@@ -1,0 +1,80 @@
+.div{
+    background-image: url('https://blog.seccionamarilla.com.mx/wp-content/uploads/2020/07/computadora_para_videojuegos_ventajas.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    color: ivory;
+}
+
+.img{
+    margin-top: 50px;
+    margin-bottom: -20px;
+    width: 40%;
+    height: 40%;
+    border-radius: 14px;
+    background-color: black;
+    margin-left: 650px;
+    border: 1px solid rgb(126, 126, 126);
+
+    
+}
+
+.empty{
+    margin: -100px;
+}
+
+.data{
+    
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 50px;
+    margin: 100px;
+    background-color: rgb(34, 34, 34, 0.75) ;
+    border: 1px solid honeydew;
+    margin-top: 10px;
+    justify-content: flex-start;
+    display: block;
+    border-radius: 15px;
+    margin-bottom: -100px;
+    padding-bottom: -100px;
+}
+
+.button{
+    background-color: rgb(34, 34, 34, 0.75) ;
+    color: ivory;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: monospace;
+    text-shadow: 2px 2px black;
+    border: 1px solid rgb(126, 126, 126);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20PX;
+    margin-top: 20px;
+}
+
+.name{
+    
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-right: 500px;
+    margin-top: -240px;
+    margin-bottom: 80px;   
+}
+
+.loading{
+    font-family: monospace;
+    padding: 100px;
+    font-size: 60px;
+    border-radius: 15px;
+    background-color: rgb(34, 34, 34, 0.75) ;
+    border: 1px solid rgb(126, 126, 126);
+    margin-left: 300px;
+    margin-right: 300px;
+
+}

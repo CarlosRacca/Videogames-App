@@ -1,0 +1,119 @@
+.divHome{
+    background: url('https://www.pandasecurity.com/es/mediacenter/src/uploads/2021/07/pandasecurity-videojuegos-dinero.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.divCard{
+    display: inline-block;
+    
+    
+
+}
+
+button:hover{
+    border-radius: 7px;
+    background-color:rgba(77, 3, 126, 0.7);
+    padding: auto;
+}
+
+.divCreate{
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+    
+}
+
+input{
+    background-color: black;
+    color: ivory;
+    border-radius: 6px;
+    padding:5px;
+    border: 1px solid rgb(126, 126, 126);
+    margin-right: 2px;
+    font-family: monospace;
+    
+}
+
+
+.createVG{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 34, 34, 0.75) ;
+    color: ivory;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: monospace;
+    text-shadow: 2px 2px black;
+    border: 1px solid rgb(126, 126, 126);
+    text-decoration: none;
+    height: 30px;
+    width: 150px;
+    font-weight: bold;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 34, 34, 0.75) ;
+    color: ivory;
+    margin-top: -1px;
+    padding: 10px;
+    font-size: 45px;
+    font-family: monospace;
+    text-shadow: 2px 2px black;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+ 
+}
+
+
+
+select{
+    font-family: monospace;
+    background-color: black;
+    color: ivory;
+    border-radius: 7px;
+    border: 1px solid rgb(126, 126, 126);
+}
+
+.divFilters{
+    font-family: monospace;
+    font-weight: bold;
+    display: flex;
+    padding: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+    
+    justify-content: space-around;
+}
+
+.divFiltersTotal{
+    background-color: rgb(34, 34, 34, 0.75) ;
+}
+
+.buttonReset{
+    
+    background-color: rgb(34, 34, 34, 0.75) ;
+    color: ivory;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: monospace;
+    text-shadow: 2px 2px black;
+    border: 1px solid rgb(126, 126, 126);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 50px;
+    width: 70px;
+    margin-bottom: 20PX;
+}

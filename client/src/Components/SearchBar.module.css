@@ -1,0 +1,9 @@
+.button{
+    background-color: rgb(34, 34, 34, 0.75) ;
+    color: ivory;
+    border-radius: 7px;
+    padding: 5px;
+    font-family: monospace;
+    font-weight: bold;
+    border: 1px solid rgb(126, 126, 126);
+}

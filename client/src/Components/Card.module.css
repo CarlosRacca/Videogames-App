@@ -1,0 +1,43 @@
+.main{
+    background-color: rgb(34, 34, 34, 0.75) ;
+    /* flex-wrap: wrap; */
+    /* display: flex; */
+    /* align-items:baseline; */
+    /* justify-content: center; */
+    padding: 10px;
+    color: ivory;
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 1px solid honeydew;
+    text-decoration:underline;
+    
+
+}
+
+ main:hover{
+    
+    /* padding: 3px; */
+    border-radius: 15px;
+    background-color:rgba(77, 3, 126, 0.7);
+    padding: auto;
+
+    
+}
+
+
+
+.name{
+    text-decoration: none;
+    
+}
+
+.genres{
+
+    
+}
+
+.img{
+    border-radius: 10px;
+    padding: 10px
+}
