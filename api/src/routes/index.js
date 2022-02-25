@@ -1,14 +1,10 @@
 const { Router } = require('express');
-// Importar todos los routers;
-// Ejemplo: const authRouter = require('./auth.js');
 const axios = require('axios');
 const {Videogame, Genre} = require('../db');
 
 
 const router = Router();
 
-// Configurar los routers
-// Ejemplo: router.use('/auth', authRouter);
 const getApiInfo = async () => {
     const apiUrl1 = await axios.get(`https://api.rawg.io/api/games?key=db5d960df49c48e7a2b0ac6dbb92505f&page_size=40&page=1`)
     const apiUrl2 = await axios.get(`https://api.rawg.io/api/games?key=db5d960df49c48e7a2b0ac6dbb92505f&page_size=40&page=2`)
@@ -115,8 +111,6 @@ router.get('/platforms', async(req, res) => {
 
 })
 
-
-
 router.get("/videogames/:id", async (req, res) => {
     const id = req.params.id;
     if(id.length > 8){
@@ -147,10 +141,8 @@ router.get("/videogames/:id", async (req, res) => {
 
     }
     res.status(200).send(gameIdDetails)
-      });
+});
     
-  
-
 router.get('/genres', async(req, res) => {
     const genreApi = await axios.get(`https://api.rawg.io/api/genres?key=db5d960df49c48e7a2b0ac6dbb92505f`)
     const genreApiName = genreApi.data.results.map(el => el.name)

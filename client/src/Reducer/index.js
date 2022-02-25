@@ -1,5 +1,4 @@
 
-
 const initialState = {
     videogames: [],
     allVideogames: [],
@@ -106,7 +105,6 @@ function rootReducer(state = initialState, action){
             return{
                 ...state,
                 genres: action.payload
-                // genres: [{name: 'carlitos', id: 1}, {name: 'juan', id: 2}]
             }
 
         case 'GET_DETAILS':

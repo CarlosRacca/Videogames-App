@@ -24,7 +24,6 @@ function validate(input){
     }
     
     return errors
-
 }
 
 
