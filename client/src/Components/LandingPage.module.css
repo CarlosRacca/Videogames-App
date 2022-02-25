@@ -1,24 +1,18 @@
 
 .LandingPage{
     display: flex;
-    justify-content:space-around;
-
-    
+    justify-content:space-around;    
     flex-wrap: wrap;
-
     background: url('https://images.squarespace-cdn.com/content/v1/53aadf1de4b0a0a817640cca/1568390402787-GOHT4CR5ZC2CS7106V7L/videojuegos+en+la+academia.jpeg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     padding: 1000px;
-    
 }
 
 
 .button{
-    
     margin-top: 20px;
     background-color: rgb(34, 34, 34, 0.75) ;
     color: ivory;
@@ -32,10 +26,7 @@
     font-weight: bold;
     height: 50px;
     width: 100px;
-    
-
 }
-
 
 .div{
     position: absolute;
@@ -53,10 +44,7 @@
     padding: 20px;
     background-size: cover;
     text-shadow: 2px 2px black;
-    
     border: 1px solid honeydew;
-
     font-size: 35px;
     font-family: monospace;
-
 }

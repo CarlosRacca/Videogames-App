@@ -66,27 +66,15 @@
  export function getDetails(id){
      return async function(dispatch){
          try {
-             var json = await axios.get('http://localhost:3001/videogames/' + id)
+            let json = await axios.get('http://localhost:3001/videogames/' + id)
 
-            //  if(json.data.createInDB){
-            //      const videogameCleaned = [json.data];
-    
-            //      for(let i = 0; i < videogameCleaned.length; i++){
-            //         for(let j = 0; j < videogameCleaned[i].genres.length; j++){
-            //             var genreDeleted = videogameCleaned[i].genres.shift()
-            //             videogameCleaned[i].genres.push(genreDeleted.name)
-            //         }
-            //     }
-            //  }
+            let videogameCleaned = [json.data]
              
-                var videogameCleaned = [json.data]
-             
+            return dispatch({
+                type: 'GET_DETAILS',
+                payload: videogameCleaned
+            })
 
-
-             return dispatch({
-                 type: 'GET_DETAILS',
-                 payload: videogameCleaned
-             })
          } catch (error) {
              console.log(error)
          }
